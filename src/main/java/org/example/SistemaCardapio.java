@@ -21,5 +21,4 @@ public interface SistemaCardapio {
     ArrayList<Cardapio> Encomendar(String nomeItem, int quantItem) throws ExceptionJaCadastrado //Resolver um novo cadastro para encomendar  e dps listalas
     ;
 
-    //<Cardapio> VerEncomendas();
 }
