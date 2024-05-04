@@ -21,7 +21,7 @@ public class TesteConfeitaria {
         }
     }
     @Test
-    public void TestaPesquisaBebidas() {
+    public void TestaPesquisaItens() {
         SistemaCardapioMap ConfeitariaSD = new SistemaCardapioMap();
         try {
             ConfeitariaSD.cadastrarItem("Empada", 3.50, "Salgado",10);
@@ -35,7 +35,7 @@ public class TesteConfeitaria {
         }
     }
     @Test
-    public void TestaListarBebidas(){
+    public void TestaListarItens(){
         SistemaCardapioMap ConfeitariaSD = new SistemaCardapioMap();
         assertEquals(0,ConfeitariaSD.listarItens().size());
         try{
@@ -64,7 +64,7 @@ public class TesteConfeitaria {
         }
     }
     @Test
-    public void TestRemoverBebidas() {
+    public void TestRemoveritens() {
         SistemaCardapioMap ConfeitariaSD = new SistemaCardapioMap();
         try {
             ConfeitariaSD.cadastrarItem("Brigadeiro", 2.00, "Sobremesa",10);
