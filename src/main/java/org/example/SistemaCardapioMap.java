@@ -88,13 +88,4 @@ public class SistemaCardapioMap implements SistemaCardapio {
             throw new ExceptionJaCadastrado("Esse item já foi cadastrado!");
         }
     }
-    /**@Override
-    public ArrayList<Cardapio> VerEncomendas() {
-        ArrayList<Cardapio> listaEncomendas = new ArrayList<>();
-        this.cardapio(Encomendar());
-        for (Cardapio c: ){
-            listaEncomendas.add(c);
-        }
-        return listaEncomendas;
-    }*/
 }
